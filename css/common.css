@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+body, html {
+  font-size: 12px;
+  font-family: "微软雅黑";
+  color: #666;
+  overflow-x: hidden;
+}
+body {
+  overflow: hidden;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+li {
+  list-style: none;
+}
+ul li a {
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: #666;
+  outline: none;
+}
+input {
+  border: 1px solid #ccc;
+  outline: none;
+}
+textarea {
+  border: 1px solid #ccc;
+  outline: none;
+}
+form {
+  margin: 0px;
+  padding: 0px;
+}
+table {
+  cellspacing: 0px;
+  cellpadding: 0px;
+}
+img {
+  border: none;
+}
+a, img {
+  border: 0;
+}
+.clear {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+a {
+  outline: none !important;
+}
+img {
+  border: 0 none;
+}
+
+
+::-webkit-scrollbar-track-piece {
+  width: 10px;
+  background-color: #000;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 6px
+}
+::-webkit-scrollbar-thumb {
+  height: 50px;
+  background-color: #666;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}
+::selection {
+  background: #000;
+  color: #fff;
+}
